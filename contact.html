@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+        <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@200;400;800&family=Montserrat:wght@300;500;900&display=swap" rel="stylesheet">
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Contact Me
+    </title>
+</head>
+<body class="contact">
+    <div class="header">
+        <div class="innerheader">
+            <div class="logocontainer">
+                <a href="index.html"><h1>SA<span>DIQ</span></h1></a>
+            </div>
+            
+            <ul class="nav">
+                <a href="index.html" class="nv"><li>Home</li></a>
+                <a href="about.php" class="nv"><li>About</li></a>
+                <a href="portfolio.html" class="nv"><li>Portfolio</li></a>
+                <a href="contact.html" class="nv"><li>Contact</li></a>
+            </ul>
+
+        </div>
+        <div class="sm">
+            <a href="https://twitter.com/sadiq_humood?s=20" class="sm-icons">
+                <img src="pictures/twitter.png" alt="" class="sm-icons twitter">
+            </a>
+    
+            <br>
+    
+            <a href="https://www.instagram.com/sadiq_alhumood/" class="sm-icons">
+                <img src="pictures/insta.png" alt="" class="sm-icons insta">
+            </a>
+    
+            <br>
+            
+            <a href="sadiq.humood@gmail.com" class="sm-icons">
+                <img src="pictures/gmail.png" alt="" class="sm-icons gmail">
+            </a>
+    
+            <br>
+    
+            <a href="https://www.snapchat.com/add/sadiq_humood" class="sm-icons snap">
+                <img src="pictures/snap.png" alt="" class="sm-icons">
+            </a>
+        
+        </div>
+    </div>
+    <section id="bg">
+        <div class="slider-overlay">
+            <div class="slider-content">
+                <h1 class="h12">Sadiq is here!</h1>
+                <h2 class="h12">You Can Ask Him Anything!</h2>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form id="contact-form" method="post" action="handle.php">
+                <input name="name" type="text" class="form-control " placeholder="Your Name" autocomplete="off" required>
+                <br>
+                <input name="email" type="text" class="form-control" placeholder="Your Email" autocomplete="off" required>
+                <br>
+                <textarea name="message" class="form-control" placeholder="Message" rows="4" autocomplete="off" required></textarea>
+                <br>
+                <input type="submit" class="form-control submit" value="SEND MESSAGE">
+            </form>
+        </div>
+        
+    </section>
+
+</body>
+</html>
